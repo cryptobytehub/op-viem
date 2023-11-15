@@ -36,7 +36,7 @@ describe('Computes L1 prove args from L2 tx hash', () => {
 
       await getProveWithdrawalTransactionArgs(client, {
         message: withdrawalMessages.messages[0],
-        output: output,
+        output: output, output: output2
       })
     },
   )
